@@ -1,0 +1,91 @@
+{
+  "collection": [
+    "Research Ideas",
+    "Persona Mechanisms"
+  ],
+  "items": [
+    {
+      "item": {
+        "itemType": "preprint",
+        "title": "Persona Vectors: Monitoring and Controlling Character Traits in Language Models",
+        "url": "https://arxiv.org/abs/2507.21509",
+        "DOI": "10.48550/arXiv.2507.21509",
+        "repository": "arXiv",
+        "date": "2025",
+        "creators": [
+          {
+            "creatorType": "author",
+            "firstName": "Runjin",
+            "lastName": "Chen"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Andy",
+            "lastName": "Arditi"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Henry",
+            "lastName": "Sleight"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Owain",
+            "lastName": "Evans"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Jack",
+            "lastName": "Lindsey"
+          }
+        ],
+        "tags": [
+          {
+            "tag": "Persona Vectors"
+          },
+          {
+            "tag": "Activation Steering"
+          }
+        ]
+      },
+      "note": "<h2>Memory Card</h2><h3>English</h3><p><strong>Takeaway</strong> A trait direction can track changes induced by prompts and fine-tuning.</p><p><strong>Background</strong> The authors ask how to measure and control unexpected shifts in assistant character.</p><p><strong>Method</strong> They estimate activation differences for contrasting trait prompts and test projections and interventions during inference and training.</p><p><strong>Conclusion</strong> The reported directions track trait expression, and steering can mitigate some shifts.</p><p><strong>Gap</strong> Test whether matching projections are mediated by the same components. Read Sections 3 and 4 for the two measurement settings.</p><h3>简体中文</h3><p><strong>核心要点</strong> 同一个特质方向可以追踪提示或微调诱导的变化。</p><p><strong>研究背景</strong> 作者研究如何测量和控制意外的人格变化。</p><p><strong>方法</strong> 通过对照特质提示估计激活差，再在推理与训练中检验向量投影及干预。</p><p><strong>结论</strong> 论文报告这些方向能追踪特质表达，引导干预可缓解部分变化。</p><p><strong>研究潜力</strong> 可检验相似的投影变化是否由相同组件介导。第 3、4 节分别介绍两种测量设置。</p><p><a href=\"https://arxiv.org/abs/2507.21509\">Original source</a></p>"
+    },
+    {
+      "item": {
+        "itemType": "preprint",
+        "title": "When Role-playing, Do Models Believe What They Say?",
+        "url": "https://arxiv.org/abs/2606.11502",
+        "DOI": "10.48550/arXiv.2606.11502",
+        "repository": "arXiv",
+        "date": "2026",
+        "creators": [
+          {
+            "creatorType": "author",
+            "firstName": "Benjamin",
+            "lastName": "Sturgeon"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "David",
+            "lastName": "Africa"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Sid",
+            "lastName": "Black"
+          }
+        ],
+        "tags": [
+          {
+            "tag": "Persona Induction"
+          },
+          {
+            "tag": "Belief Probing"
+          }
+        ]
+      },
+      "note": "<h2>Memory Card</h2><h3>English</h3><p><strong>Takeaway</strong> Persona induction can shift expression and internal truth representations by different amounts.</p><p><strong>Background</strong> The study asks whether induced personas change what models express or what they represent as true.</p><p><strong>Method</strong> It compares several induction methods with behavioral challenges and probes of internal truth representations.</p><p><strong>Conclusion</strong> The degree of internalization varies by method in the reported experiments.</p><p><strong>Gap</strong> Measure expression, defense under challenge and reliance in a later task separately.</p><h3>简体中文</h3><p><strong>核心要点</strong> 人格诱导对外显表达与内部真值表征的影响可以不同。</p><p><strong>研究背景</strong> 研究考察诱导人格改变的是模型表达的内容，还是模型表征为真的内容。</p><p><strong>方法</strong> 作者比较多种诱导方法，并用行为挑战和内部真值探针进行评估。</p><p><strong>结论</strong> 在报告的实验中，不同方法的内化程度不同。</p><p><strong>研究潜力</strong> 分别测量表达、遭质疑后的捍卫行为，以及后续任务是否依赖该说法。</p><p><a href=\"https://arxiv.org/abs/2606.11502\">Original source</a></p>"
+    }
+  ],
+  "collection_note": "<h2>Idea Card</h2><h3>English</h3><p><strong>Research Question</strong> When prompting and fine-tuning move the same persona direction, do they use the same causal mechanism?</p><p><strong>Design</strong> Match behavior and projection shifts across conditions, then compare interventions on the candidate components.</p><p><strong>Next Decision</strong> Choose a model family and one trait with a measurable behavioral outcome.</p><h3>简体中文</h3><p><strong>研究问题</strong> 当提示和微调让同一个人格方向发生偏移时，两者是否使用相同的因果机制？</p><p><strong>设计</strong> 匹配两种条件下的行为与投影变化，再比较干预候选组件后的结果。</p><p><strong>下一步</strong> 选定一个模型家族与一个能客观测量的特质。</p>"
+}
